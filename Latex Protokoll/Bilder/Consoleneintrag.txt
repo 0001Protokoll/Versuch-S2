@@ -1,0 +1,80 @@
+•Rotvib()
+  General text load from "HCL.txt"
+  Data length: 61, waves: Abstand R HCl, Energie R HCl
+  General text load from "HCL30.txt"
+  Data length: 31, waves: Abstand R HCl30, Energie HCl30
+•Edit 'Abstand R HCl','Abstand R HCl30' as "Abstand R"
+•DeletePoints 0,31, 'Abstand R HCl','Abstand R HCl30'
+•make/N=10 w1,w2
+  General text load from "HCLzusammen.txt"
+  LoadWave is unable to find column names on line 0
+  Data length: 92, waves: Abstand R, Energie 
+  General text load from "HCLzusammen.txt"
+  LoadWave is unable to find column names on line 0
+  Data length: 92, waves: HCl_x, HCl_E
+•duplicate HCl_x HCl_X1;
+•duplicate HCL_E HCL_E1;
+•appendtotable HCL_x1, HCL_E1
+•HCL_x1 *= 1e-8
+•appendtotable HCL_x;
+•appendtotable HCL_E
+•HCL_E1 *= 219474.63
+•display HCL_E1 vs HCL_X1
+•ModifyGraph mode=3,marker=8
+•HCL_E1 += 101e6
+•HCL_E1 += 120e3
+•duplicate HCL_E1 maskW
+•maskW=0
+•appendtotable maskW
+•ShowInfo
+•HideInfo
+•ShowInfo
+•maskW[19,58]=1
+•Make/D/N=4/O W_coef
+•W_coef[0] = {2000,50,1.3e-8,-2e3}
+•Make/O/T/N=8 T_Constraints
+•T_Constraints[0] = {"K0 > 100","K0 < 1e4","K1 > 5","K1 < 500","K2 > 1e-8","K2 < 2e-8","K3 > -9e3","K3 < 0"}
+•FuncFit/NTHR=0/TBOX=768 morsefit W_coef  HCL_E1 /X=HCl_X1 /M=maskW /D /C=T_Constraints 
+  Fit converged properly
+  --Curve fit with constraints--
+     No constraints active or violated
+  fit_HCL_E1= morsefit(W_coef,x)
+  W_coef={2654.5,60.006,1.3333e-008,-3719.1}
+  V_chisq= 625.196;V_npnts= 40;V_numNaNs= 0;V_numINFs= 0;
+  V_startRow= 0;V_endRow= 91;
+  W_sigma={0.94,0.379,7.29e-13,1.01}
+  Coefficient values ± one standard deviation
+  	w_0	=2654.5 ± 0.94
+  	w_1	=60.006 ± 0.379
+  	w_2	=1.3333e-008 ± 7.29e-013
+  	w_3	=-3719.1 ± 1.01
+•SetAxis/A
+•SetAxis/A
+•SetAxis/A
+•SetAxis/A
+•ModifyGraph msize(HCL_E1)=5
+•ModifyGraph msize(HCL_E1)=50
+•ModifyGraph msize(HCL_E1)=10
+•SetAxis/A
+•getB_rot(1,35,1.333)
+  B_rot =  9.75823   cm-1
+•Visual_Gauss()
+  Gaussian Convolution, FWHM = 10
+  Gauss Convolve:	sourcewave = YPRW_lin	,sigma = 4.24661
+  Area **before** convolution -->			10.6717
+  Area **after**  convolution -->			10.6717
+  Finished - Name of Convolved Wave:				YPRW_lin_GC
+•display YPRW_lin_GC
+  Gaussian Convolution, FWHM = 1
+  Gauss Convolve:	sourcewave = YPRW_lin	,sigma = 0.424661
+  Area **before** convolution -->			10.6717
+  Area **after**  convolution -->			10.6717
+  Finished - Name of Convolved Wave:				YPRW_lin_GC
+  Gaussian Convolution, FWHM = 10
+  Gauss Convolve:	sourcewave = YPRW_lin	,sigma = 4.24661
+  Area **before** convolution -->			10.6717
+  Area **after**  convolution -->			10.6717
+  Finished - Name of Convolved Wave:				YPRW_lin_GC
+•YPRW_lin_GC += gnoise(.005)
+•YPRW_lin_GC += gnoise(.01)
+•YPRW_lin_GC += gnoise(.02)

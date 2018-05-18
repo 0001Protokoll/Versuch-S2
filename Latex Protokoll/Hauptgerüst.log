@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.6)  18 MAY 2018 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.6)  18 MAY 2018 18:23
 entering extended mode
 **./Hauptgerüst.tex
 (Hauptgerüst.tex
@@ -1526,12 +1526,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 144.
-<Bilder/1000CO.pdf, id=69, 552.0625pt x 487.8225pt>
+<Bilder/1000CO.pdf, id=74, 552.0625pt x 487.8225pt>
 File: Bilder/1000CO.pdf Graphic file (type pdf)
 <use Bilder/1000CO.pdf>
 Package pdftex.def Info: Bilder/1000CO.pdf  used on input line 149.
 (pdftex.def)             Requested size: 227.62206pt x 201.13994pt.
-<Bilder/100CO.pdf, id=70, 552.0625pt x 487.8225pt>
+<Bilder/100CO.pdf, id=75, 552.0625pt x 487.8225pt>
 File: Bilder/100CO.pdf Graphic file (type pdf)
 <use Bilder/100CO.pdf>
 Package pdftex.def Info: Bilder/100CO.pdf  used on input line 153.
@@ -1541,7 +1541,7 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 148--156
 []$[]$ $[]$ 
  []
 
-<Bilder/10CO.pdf, id=71, 552.0625pt x 487.8225pt>
+<Bilder/10CO.pdf, id=76, 552.0625pt x 487.8225pt>
 File: Bilder/10CO.pdf Graphic file (type pdf)
 <use Bilder/10CO.pdf>
 Package pdftex.def Info: Bilder/10CO.pdf  used on input line 166.
@@ -1552,7 +1552,7 @@ Underfull \hbox (badness 1838) in paragraph at lines 167--167
 win-
  []
 
-<Bilder/1CO.pdf, id=72, 552.0625pt x 487.8225pt>
+<Bilder/1CO.pdf, id=77, 552.0625pt x 487.8225pt>
 File: Bilder/1CO.pdf Graphic file (type pdf)
 <use Bilder/1CO.pdf>
 Package pdftex.def Info: Bilder/1CO.pdf  used on input line 170.
@@ -1572,7 +1572,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 179.
 [4]
-<Bilder/001CO.pdf, id=86, 552.0625pt x 487.8225pt>
+<Bilder/001CO.pdf, id=91, 552.0625pt x 487.8225pt>
 File: Bilder/001CO.pdf Graphic file (type pdf)
 <use Bilder/001CO.pdf>
 Package pdftex.def Info: Bilder/001CO.pdf  used on input line 183.
@@ -1593,12 +1593,12 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 192.
 [5 <./Bilder/1000CO.pdf> <./Bilder/100CO.pdf> <./Bilder/10CO.pdf> <./Bilder/1CO
 .pdf>]
-<Bilder/1000HCL.pdf, id=101, 552.0625pt x 491.8375pt>
+<Bilder/1000HCL.pdf, id=106, 552.0625pt x 491.8375pt>
 File: Bilder/1000HCL.pdf Graphic file (type pdf)
 <use Bilder/1000HCL.pdf>
 Package pdftex.def Info: Bilder/1000HCL.pdf  used on input line 201.
 (pdftex.def)             Requested size: 227.62206pt x 202.79541pt.
-<Bilder/100HCL.pdf, id=102, 552.0625pt x 491.8375pt>
+<Bilder/100HCL.pdf, id=107, 552.0625pt x 491.8375pt>
 File: Bilder/100HCL.pdf Graphic file (type pdf)
 <use Bilder/100HCL.pdf>
 Package pdftex.def Info: Bilder/100HCL.pdf  used on input line 205.
@@ -1614,12 +1614,12 @@ Overfull \hbox (2.28003pt too wide) in paragraph at lines 200--208
 []$[]$ $[]$ 
  []
 
-<Bilder/10HCL.pdf, id=103, 552.0625pt x 491.8375pt>
+<Bilder/10HCL.pdf, id=108, 552.0625pt x 491.8375pt>
 File: Bilder/10HCL.pdf Graphic file (type pdf)
 <use Bilder/10HCL.pdf>
 Package pdftex.def Info: Bilder/10HCL.pdf  used on input line 218.
 (pdftex.def)             Requested size: 213.96529pt x 190.62257pt.
-<Bilder/1HCL.pdf, id=104, 552.0625pt x 491.8375pt>
+<Bilder/1HCL.pdf, id=109, 552.0625pt x 491.8375pt>
 File: Bilder/1HCL.pdf Graphic file (type pdf)
 <use Bilder/1HCL.pdf>
 Package pdftex.def Info: Bilder/1HCL.pdf  used on input line 222.
@@ -1633,7 +1633,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 231.
 [6 <./Bilder/001CO.pdf> <./Bilder/1000HCL.pdf> <./Bilder/100HCL.pdf>]
-<Bilder/001HCL.pdf, id=117, 552.0625pt x 491.8375pt>
+<Bilder/001HCL.pdf, id=122, 552.0625pt x 491.8375pt>
 File: Bilder/001HCL.pdf Graphic file (type pdf)
 <use Bilder/001HCL.pdf>
 Package pdftex.def Info: Bilder/001HCL.pdf  used on input line 235.
@@ -1688,9 +1688,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/
 helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pf
 b><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on Hauptgerüst.pdf (7 pages, 214784 bytes).
+Output written on Hauptgerüst.pdf (7 pages, 215707 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 184 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

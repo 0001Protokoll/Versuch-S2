@@ -45,18 +45,17 @@ Vorgehen bei der Erstellung der Graphik\\[5ex]
     $\result$
 \end{itemize} 
 \section{Fehlerrechnung und Konstante B}
-Die Rotationskonstante $B$, sowie der Fehler $\Delta B$ berechnen sich gemäß den Gleichungen :::.
+Die Rotationskonstante $B$, sowie der Fehler $\Delta B$ berechnen sich gemäß der Gleichungen \ref{eq:B} und \ref{eq:DeltaB}.
 \begin{align}
-\label{eq:B}
 B 	
    			&= \frac{\hbar}{4 \cdot \pi \cdot c \cdot \mu  \cdot r_e^{2}}
-   			\\
+   			\notag\\\label{eq:B}
    			&= konst.\cdot\frac{1}{\mu  \cdot r_e^{2}}
-   			\\
+   			\\\label{eq:DeltaB}	
 \Delta B	
-   			&=  \left|\frac{\delta B}{\delta r_e}\right|\cdot\Delta r_e =konst. \cdot\left|\frac{-2}{\mu \cdot r_e^{3}  }\right|\cdot \Delta r_e   			 
-\end{align}
-Dabei werden zur Vereinfachung die Naturkonstante in einer Konstante $konst.$ in Gleichung ::: zusammengefasst.
+   			&=  \left|\frac{\delta B}{\delta r_e}\right|\cdot\Delta r_e =konst. \cdot\left|\frac{-2}{\mu \cdot r_e^{3}  }\right|\cdot \Delta r_e  	
+   			\end{align}
+Dabei werden zur Vereinfachung die Naturkonstante in einer Konstante $konst.$ in Gleichung \ref{eq:konst} zusammengefasst.
 
 
 \begin{align}
@@ -81,8 +80,8 @@ die in Gleichung \ref{eq:B_HCL} berechnete Rotationskonstante $B$
 \begin{align}
 \label{eq:B_HCL}
 B &=\frac{\SI[mode=math]{2.799274682e-44}{kg.m}}{\SI[mode=math]{1.614412705e-27}{kg}\cdot\SI[mode=math]{1.3333e-20}{m^{2}}}
-&=\SI[mode=math]{}{m^{-1}}
-=\SI[mode=math]{}{cm^{-1}}
+&=\SI[mode=math]{1300.478182}{m^{-1}}
+=\SI[mode=math]{13.00}{cm^{-1}}
 \end{align}
 
 
@@ -90,7 +89,7 @@ B &=\frac{\SI[mode=math]{2.799274682e-44}{kg.m}}{\SI[mode=math]{1.614412705e-27}
 \begin{align}
 \Delta B &= \left|-2\cdot \frac{\SI[mode=math]{2.799274682e-44}{kg.m}}{\SI[mode=math]{1.614412705e-27}{kg}\cdot\SI[mode=math]{1.3333e-30}{m^{3}}}\right| \cdot \SI[mode=math]{7.29e-15}{m}
 \notag\\
-&= \label{eq:DeltaB_HCL}
+&= 0.07282667818\label{eq:DeltaB_HCL}
 \end{align} 
 
 

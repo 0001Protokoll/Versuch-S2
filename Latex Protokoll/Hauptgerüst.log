@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.6)  18 MAY 2018 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.6)  18 MAY 2018 18:42
 entering extended mode
 **./Hauptgerüst.tex
 (Hauptgerüst.tex
@@ -1503,145 +1503,145 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 47.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 57.
  [2 <./Bilder/HCLGraph.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 67.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 78.
  [3 <./Bilder/Graph2.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 144.
-<Bilder/1000CO.pdf, id=74, 552.0625pt x 487.8225pt>
+(babel)             in language  on input line 143.
+<Bilder/1000CO.pdf, id=76, 552.0625pt x 487.8225pt>
 File: Bilder/1000CO.pdf Graphic file (type pdf)
 <use Bilder/1000CO.pdf>
-Package pdftex.def Info: Bilder/1000CO.pdf  used on input line 149.
+Package pdftex.def Info: Bilder/1000CO.pdf  used on input line 148.
 (pdftex.def)             Requested size: 227.62206pt x 201.13994pt.
-<Bilder/100CO.pdf, id=75, 552.0625pt x 487.8225pt>
+<Bilder/100CO.pdf, id=77, 552.0625pt x 487.8225pt>
 File: Bilder/100CO.pdf Graphic file (type pdf)
 <use Bilder/100CO.pdf>
-Package pdftex.def Info: Bilder/100CO.pdf  used on input line 153.
+Package pdftex.def Info: Bilder/100CO.pdf  used on input line 152.
 (pdftex.def)             Requested size: 227.62206pt x 201.13994pt.
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 148--156
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 147--155
 []$[]$ $[]$ 
  []
 
-<Bilder/10CO.pdf, id=76, 552.0625pt x 487.8225pt>
+<Bilder/10CO.pdf, id=78, 552.0625pt x 487.8225pt>
 File: Bilder/10CO.pdf Graphic file (type pdf)
 <use Bilder/10CO.pdf>
-Package pdftex.def Info: Bilder/10CO.pdf  used on input line 166.
+Package pdftex.def Info: Bilder/10CO.pdf  used on input line 165.
 (pdftex.def)             Requested size: 213.96529pt x 189.06648pt.
 
-Underfull \hbox (badness 1838) in paragraph at lines 167--167
+Underfull \hbox (badness 1838) in paragraph at lines 166--166
 []\T1/ppl/b/n/10 Abbildung 5.4: |\T1/ppl/m/n/10 be-rech-ne-tes Ro-ta-ti-ons-sch
 win-
  []
 
-<Bilder/1CO.pdf, id=77, 552.0625pt x 487.8225pt>
+<Bilder/1CO.pdf, id=79, 552.0625pt x 487.8225pt>
 File: Bilder/1CO.pdf Graphic file (type pdf)
 <use Bilder/1CO.pdf>
-Package pdftex.def Info: Bilder/1CO.pdf  used on input line 170.
+Package pdftex.def Info: Bilder/1CO.pdf  used on input line 169.
 (pdftex.def)             Requested size: 213.96529pt x 189.06648pt.
 
-Underfull \hbox (badness 1838) in paragraph at lines 171--171
+Underfull \hbox (badness 1838) in paragraph at lines 170--170
 []\T1/ppl/b/n/10 Abbildung 5.5: |\T1/ppl/m/n/10 be-rech-ne-tes Ro-ta-ti-ons-sch
 win-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 178.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 178.
 [4]
-<Bilder/001CO.pdf, id=91, 552.0625pt x 487.8225pt>
+<Bilder/001CO.pdf, id=93, 552.0625pt x 487.8225pt>
 File: Bilder/001CO.pdf Graphic file (type pdf)
 <use Bilder/001CO.pdf>
-Package pdftex.def Info: Bilder/001CO.pdf  used on input line 183.
+Package pdftex.def Info: Bilder/001CO.pdf  used on input line 182.
 (pdftex.def)             Requested size: 213.96529pt x 189.06648pt.
 
-Underfull \hbox (badness 1838) in paragraph at lines 184--184
+Underfull \hbox (badness 1838) in paragraph at lines 183--183
 []\T1/ppl/b/n/10 Abbildung 5.7: |\T1/ppl/m/n/10 be-rech-ne-tes Ro-ta-ti-ons-sch
 win-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 191.
 [5 <./Bilder/1000CO.pdf> <./Bilder/100CO.pdf> <./Bilder/10CO.pdf> <./Bilder/1CO
 .pdf>]
-<Bilder/1000HCL.pdf, id=106, 552.0625pt x 491.8375pt>
+<Bilder/1000HCL.pdf, id=108, 552.0625pt x 491.8375pt>
 File: Bilder/1000HCL.pdf Graphic file (type pdf)
 <use Bilder/1000HCL.pdf>
-Package pdftex.def Info: Bilder/1000HCL.pdf  used on input line 201.
+Package pdftex.def Info: Bilder/1000HCL.pdf  used on input line 200.
 (pdftex.def)             Requested size: 227.62206pt x 202.79541pt.
-<Bilder/100HCL.pdf, id=107, 552.0625pt x 491.8375pt>
+<Bilder/100HCL.pdf, id=109, 552.0625pt x 491.8375pt>
 File: Bilder/100HCL.pdf Graphic file (type pdf)
 <use Bilder/100HCL.pdf>
-Package pdftex.def Info: Bilder/100HCL.pdf  used on input line 205.
+Package pdftex.def Info: Bilder/100HCL.pdf  used on input line 204.
 (pdftex.def)             Requested size: 227.62206pt x 202.79541pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
 []\T1/ppl/b/n/10 Abbildung 5.10: |\T1/ppl/m/n/10 be-rech-ne-tes Ro-ta-ti-ons-sc
 hwin-
  []
 
 
-Overfull \hbox (2.28003pt too wide) in paragraph at lines 200--208
+Overfull \hbox (2.28003pt too wide) in paragraph at lines 199--207
 []$[]$ $[]$ 
  []
 
-<Bilder/10HCL.pdf, id=108, 552.0625pt x 491.8375pt>
+<Bilder/10HCL.pdf, id=110, 552.0625pt x 491.8375pt>
 File: Bilder/10HCL.pdf Graphic file (type pdf)
 <use Bilder/10HCL.pdf>
-Package pdftex.def Info: Bilder/10HCL.pdf  used on input line 218.
+Package pdftex.def Info: Bilder/10HCL.pdf  used on input line 217.
 (pdftex.def)             Requested size: 213.96529pt x 190.62257pt.
-<Bilder/1HCL.pdf, id=109, 552.0625pt x 491.8375pt>
+<Bilder/1HCL.pdf, id=111, 552.0625pt x 491.8375pt>
 File: Bilder/1HCL.pdf Graphic file (type pdf)
 <use Bilder/1HCL.pdf>
-Package pdftex.def Info: Bilder/1HCL.pdf  used on input line 222.
+Package pdftex.def Info: Bilder/1HCL.pdf  used on input line 221.
 (pdftex.def)             Requested size: 213.96529pt x 190.62257pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 231.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 231.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 231.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 231.
+(babel)             in language  on input line 230.
 [6 <./Bilder/001CO.pdf> <./Bilder/1000HCL.pdf> <./Bilder/100HCL.pdf>]
-<Bilder/001HCL.pdf, id=122, 552.0625pt x 491.8375pt>
+<Bilder/001HCL.pdf, id=124, 552.0625pt x 491.8375pt>
 File: Bilder/001HCL.pdf Graphic file (type pdf)
 <use Bilder/001HCL.pdf>
-Package pdftex.def Info: Bilder/001HCL.pdf  used on input line 235.
+Package pdftex.def Info: Bilder/001HCL.pdf  used on input line 234.
 (pdftex.def)             Requested size: 213.96529pt x 190.62257pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 245.
 )
 
 Package caption Warning: Unused \captionsetup[sub] on input line 43.
@@ -1672,9 +1672,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 34.
  ) 
 Here is how much of TeX's memory you used:
  23702 strings out of 493305
- 447635 string characters out of 3140603
- 731299 words of memory out of 3000000
- 26929 multiletter control sequences out of 15000+200000
+ 447633 string characters out of 3140603
+ 732299 words of memory out of 3000000
+ 26930 multiletter control sequences out of 15000+200000
  557544 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,21n,51p,10403b,751s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1688,9 +1688,9 @@ TeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/typ
 e1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/
 helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pf
 b><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on Hauptgerüst.pdf (7 pages, 215707 bytes).
+Output written on Hauptgerüst.pdf (7 pages, 216191 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.6)  18 MAY 2018 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.6)  18 MAY 2018 16:46
 entering extended mode
 **./Auswertung.tex
 (Auswertung.tex
@@ -955,8 +955,8 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.80 \mu= \frac{1\cdot35}{1+35} ~\si
-                                    {kg}=\frac{35}{36}~\si{kg}=\SI[mode=math...
+l.80 \mu= \frac{12\cdot16}{12+16} ~\si
+                                      {u}=\frac{48}{7}~\si{u}=\SI[mode=math]...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -964,8 +964,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.80 ...1\cdot35}{1+35} ~\si{kg}=\frac{35}{36}~\si
-                                                  {kg}=\SI[mode=math]{0.972}...
+l.80 ...12\cdot16}{12+16} ~\si{u}=\frac{48}{7}~\si
+                                                  {u}=\SI[mode=math]{1.13865...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -973,8 +973,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.80 ...}{1+35} ~\si{kg}=\frac{35}{36}~\si{kg}=\SI
-                                                  [mode=math]{0.972}{kg}
+l.80 ...16}{12+16} ~\si{u}=\frac{48}{7}~\si{u}=\SI
+                                                  [mode=math]{1.138655165e-2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -982,9 +982,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (208.58913pt too wide) detected at line 81
-\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = [] [][] = [] [][] = [\OML/cmm/m/it/10 mode
- \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 math\OT1/cmr/m/n/10 ][][]
+Overfull \hbox (260.61821pt too wide) detected at line 81
+\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = [] []\OML/cmm/m/it/10 u \OT1/cmr/m/n/10 = 
+[] []\OML/cmm/m/it/10 u \OT1/cmr/m/n/10 = [\OML/cmm/m/it/10 mode \OT1/cmr/m/n/1
+0 = \OML/cmm/m/it/10 math\OT1/cmr/m/n/10 ][][]
  []
 
 Missing character: There is no e in font nullfont!
@@ -1065,12 +1066,22 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no B in font nullfont!
+! Misplaced alignment tab character &.
+l.87 B &
+        = \frac{\SI[mode=math]{1.054571800e-34}{kg.m.s^{-1}}}{4\cdot 3.14159...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
 <argument> \SI 
                [mode=math]{1.054571800e-34}{kg.m.s^{-1}}
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1112,16 +1123,16 @@ Missing character: There is no s in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <argument> ...=math]{1.054571800e-34}{kg.m.s^{-1}}
                                                   
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1131,8 +1142,8 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1142,8 +1153,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1153,16 +1164,16 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
 <argument> 4\cdot 3.14159265359 \cdot \SI 
                                           [mode=math]{299792458}{m.s^{-1}} \...
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1171,9 +1182,9 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 <argument> ...ath]{299792458}{m.s^{-1}} \cdot \SI 
-                                                  [mode=math]{0.972}{kg} 
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+                                                  [mode=math]{1.13655165e.26...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1183,8 +1194,8 @@ and I'll forget about whatever was undefined.
 ! Extra }, or forgotten $.
 \frac #1#2->{\begingroup #1\endgroup \over #2}
                                               
-l.87 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
-                                                  \cdot 1.17 \cdot 10^{16} ~...
+l.87 ...\cdot \SI[mode=math]{1.13655165e.26}{kg} }
+                                                  \cdot 1.17 \cdot 10^{20} ~...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1192,8 +1203,29 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.87 ...{0.972}{kg} }\cdot 1.17 \cdot 10^{16} ~\si
-                                                  {cm^{-1}}
+l.87 ...65e.26}{kg} }\cdot 1.17 \cdot 10^{20} ~\si
+                                                  {m^{-2}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.89 &
+      =\SI[mode=math]{4.776263203e-25}{m^{-2}}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.89 &=\SI
+          [mode=math]{4.776263203e-25}{m^{-2}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1207,7 +1239,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \end{align}
+l.90 \end{align}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1216,7 +1248,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.88 \end{align}
+l.90 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1227,7 +1259,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.88 \end{align}
+l.90 \end{align}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1236,14 +1268,132 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 87--89
+Overfull \hbox (20.0pt too wide) in paragraph at lines 87--91
 []
  []
 
 
-Overfull \hbox (311.74565pt too wide) in paragraph at lines 87--89
+Overfull \hbox (473.8546pt too wide) in paragraph at lines 87--91
 []$$[]$ 
  []
+
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \begin{align}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.95 \Delta
+            B &= \left|-2\cdot \frac{\SI[mode=math]{1.054571800e-34}{kg.m.s^...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.95 \Delta B &
+               = \left|-2\cdot \frac{\SI[mode=math]{1.054571800e-34}{kg.m.s^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+<argument> \SI 
+               [mode=math]{1.054571800e-34}{kg.m.s^{-1}}
+l.95 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
+                                                  \right|\cdot 1.17 \cdot 10...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> 4\cdot 3.14159265359 \cdot \SI 
+                                          [mode=math]{299792458}{m.s^{-1}} \...
+l.95 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
+                                                  \right|\cdot 1.17 \cdot 10...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...ath]{299792458}{m.s^{-1}} \cdot \SI 
+                                                  [mode=math]{0.972}{kg} 
+l.95 ....s^{-1}} \cdot \SI[mode=math]{0.972}{kg} }
+                                                  \right|\cdot 1.17 \cdot 10...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.95 ...{kg} }\right|\cdot 1.17 \cdot 10^{30} ~\si
+                                                  {m^{-3}} \cdot \SI[mode=ma...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.95 ... 1.17 \cdot 10^{30} ~\si{m^{-3}} \cdot \SI
+                                                  [mode=math]{2.8e-15}{m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.97 &
+      =
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 \end{align}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.98 \end{align}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 Missing character: There is no A in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1450,13 +1600,43 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 91--96
-[]
+Overfull \hbox (46.97568pt too wide) in paragraph at lines 95--105
+[]$\OT1/cmr/m/n/10 \OML/cmm/m/it/10 B \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (276.10315pt too wide) in paragraph at lines 95--105
+[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 95--105
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 17 \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (40.76636pt too wide) in paragraph at lines 95--105
+\OT1/cmr/m/n/10 10[] [][] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (36.8218pt too wide) in paragraph at lines 95--105
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 mode \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (74.6529pt too wide) in paragraph at lines 95--105
+\OML/cmm/m/it/10 math\OT1/cmr/m/n/10 ][]\OML/cmm/m/it/10 m[] 
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 95--105
+\OT1/cmr/m/n/10 =$
  []
 
 ! Undefined control sequence.
-l.97 \section
-             {Roationsschwingungsspektrum von HCL und CO bei verschiedenen T}
+l.106 \section
+              {Roationsschwingungsspektrum von HCL und CO bei verschiedenen T}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1519,7 +1699,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no T in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 97--98
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--107
 []
  []
 
@@ -1530,8 +1710,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 \begin{figure}
-                   [ht]
+l.108 \begin{figure}
+                    [ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1541,12 +1721,12 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 99--100
+Overfull \hbox (20.0pt too wide) in paragraph at lines 108--109
 [] 
  []
 
 ! Undefined control sequence.
-l.102 	\includegraphics
+l.111 	\includegraphics
                        [width=\textwidth]{Bilder/1000CO.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1564,7 +1744,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.102 	\includegraphics[width=\textwidth]
+l.111 	\includegraphics[width=\textwidth]
                                          {Bilder/1000CO.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1573,7 +1753,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.102 	\includegraphics[width=\textwidth]
+l.111 	\includegraphics[width=\textwidth]
                                          {Bilder/1000CO.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1607,7 +1787,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 	\caption
+l.112 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 1000 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1665,7 +1845,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.106 	\includegraphics
+l.115 	\includegraphics
                        [width=\textwidth]{Bilder/100CO.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1683,7 +1863,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.106 	\includegraphics[width=\textwidth]
+l.115 	\includegraphics[width=\textwidth]
                                          {Bilder/100CO.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1692,7 +1872,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.106 	\includegraphics[width=\textwidth]
+l.115 	\includegraphics[width=\textwidth]
                                          {Bilder/100CO.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1725,7 +1905,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 	\caption
+l.116 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 100 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1782,12 +1962,12 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (4115.99998pt too wide) in paragraph at lines 101--109
+Overfull \hbox (4115.99998pt too wide) in paragraph at lines 110--118
 []$[]$
  []
 
 
-Overfull \hbox (4095.99998pt too wide) in paragraph at lines 101--109
+Overfull \hbox (4095.99998pt too wide) in paragraph at lines 110--118
 []$ 
  []
 
@@ -1798,7 +1978,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 	\caption
+l.119 	\caption
                {CO 1000 und 100 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1822,7 +2002,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 110--111
+Overfull \hbox (20.0pt too wide) in paragraph at lines 119--120
 []
  []
 
@@ -1833,7 +2013,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 \end{figure}
+l.123 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1846,7 +2026,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \begin{figure}
+l.125 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1856,7 +2036,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.119 	\includegraphics
+l.128 	\includegraphics
                        [width=\linewidth]{Bilder/10CO.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1874,7 +2054,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.119 	\includegraphics[width=\linewidth]
+l.128 	\includegraphics[width=\linewidth]
                                          {Bilder/10CO.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1883,7 +2063,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.119 	\includegraphics[width=\linewidth]
+l.128 	\includegraphics[width=\linewidth]
                                          {Bilder/10CO.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1915,7 +2095,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 	\caption
+l.129 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 10~K}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1966,7 +2146,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no K in font nullfont!
 ! Undefined control sequence.
-l.123 	\includegraphics
+l.132 	\includegraphics
                        [width=\linewidth]{Bilder/1CO.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1984,7 +2164,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.123 	\includegraphics[width=\linewidth]
+l.132 	\includegraphics[width=\linewidth]
                                          {Bilder/1CO.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1993,7 +2173,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.123 	\includegraphics[width=\linewidth]
+l.132 	\includegraphics[width=\linewidth]
                                          {Bilder/1CO.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2024,7 +2204,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 	\caption
+l.133 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 1~K}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2074,7 +2254,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no K in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 116--126
+Overfull \hbox (20.0pt too wide) in paragraph at lines 125--135
  [] 
  []
 
@@ -2085,7 +2265,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 	\caption
+l.136 	\caption
                {CO 10 und 1 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2111,7 +2291,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 \end{figure}
+l.140 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2124,7 +2304,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \begin{figure}
+l.142 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2134,7 +2314,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.136 	\includegraphics
+l.145 	\includegraphics
                        [width=\linewidth]{Bilder/001CO.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2152,7 +2332,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.136 	\includegraphics[width=\linewidth]
+l.145 	\includegraphics[width=\linewidth]
                                          {Bilder/001CO.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2161,7 +2341,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.136 	\includegraphics[width=\linewidth]
+l.145 	\includegraphics[width=\linewidth]
                                          {Bilder/001CO.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2194,7 +2374,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 	\caption
+l.146 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 10~K}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2245,7 +2425,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no K in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 133--139
+Overfull \hbox (20.0pt too wide) in paragraph at lines 142--148
  [] 
  []
 
@@ -2256,7 +2436,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.140 	\caption
+l.149 	\caption
                {CO 10 und 1 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2282,7 +2462,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 \end{figure}
+l.153 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2434,7 +2614,7 @@ Missing character: There is no + in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 147--148
+Overfull \hbox (20.0pt too wide) in paragraph at lines 156--157
 []
  []
 
@@ -2445,7 +2625,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 \begin{figure}
+l.160 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2455,12 +2635,12 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 151--152
+Overfull \hbox (20.0pt too wide) in paragraph at lines 160--161
 [] 
  []
 
 ! Undefined control sequence.
-l.154 	\includegraphics
+l.163 	\includegraphics
                        [width=\textwidth]{Bilder/1000HCL.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2478,7 +2658,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.154 	\includegraphics[width=\textwidth]
+l.163 	\includegraphics[width=\textwidth]
                                          {Bilder/1000HCL.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2487,7 +2667,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.154 	\includegraphics[width=\textwidth]
+l.163 	\includegraphics[width=\textwidth]
                                          {Bilder/1000HCL.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2522,7 +2702,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.155 	\caption
+l.164 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 1000 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2580,7 +2760,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.158 	\includegraphics
+l.167 	\includegraphics
                        [width=\textwidth]{Bilder/100HCL.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2598,7 +2778,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.158 	\includegraphics[width=\textwidth]
+l.167 	\includegraphics[width=\textwidth]
                                          {Bilder/100HCL.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2607,7 +2787,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.158 	\includegraphics[width=\textwidth]
+l.167 	\includegraphics[width=\textwidth]
                                          {Bilder/100HCL.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2641,7 +2821,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 	\caption
+l.168 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 100 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2698,12 +2878,12 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (4115.99998pt too wide) in paragraph at lines 153--161
+Overfull \hbox (4115.99998pt too wide) in paragraph at lines 162--170
 []$[]$
  []
 
 
-Overfull \hbox (4095.99998pt too wide) in paragraph at lines 153--161
+Overfull \hbox (4095.99998pt too wide) in paragraph at lines 162--170
 []$ 
  []
 
@@ -2714,7 +2894,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 	\caption
+l.171 	\caption
                {HCL 1000 und 100 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2739,7 +2919,7 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 162--163
+Overfull \hbox (20.0pt too wide) in paragraph at lines 171--172
 []
  []
 
@@ -2750,7 +2930,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 \end{figure}
+l.175 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2763,7 +2943,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 \begin{figure}
+l.177 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2773,7 +2953,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.171 	\includegraphics
+l.180 	\includegraphics
                        [width=\linewidth]{Bilder/10HCL.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2791,7 +2971,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.171 	\includegraphics[width=\linewidth]
+l.180 	\includegraphics[width=\linewidth]
                                          {Bilder/10HCL.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2800,7 +2980,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.171 	\includegraphics[width=\linewidth]
+l.180 	\includegraphics[width=\linewidth]
                                          {Bilder/10HCL.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2833,7 +3013,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 	\caption
+l.181 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 10~K}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2884,7 +3064,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no K in font nullfont!
 ! Undefined control sequence.
-l.175 	\includegraphics
+l.184 	\includegraphics
                        [width=\linewidth]{Bilder/1HCL.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2902,7 +3082,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.175 	\includegraphics[width=\linewidth]
+l.184 	\includegraphics[width=\linewidth]
                                          {Bilder/1HCL.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2911,7 +3091,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.175 	\includegraphics[width=\linewidth]
+l.184 	\includegraphics[width=\linewidth]
                                          {Bilder/1HCL.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2943,7 +3123,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 	\caption
+l.185 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 1~K}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2993,7 +3173,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no K in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 168--178
+Overfull \hbox (20.0pt too wide) in paragraph at lines 177--187
  [] 
  []
 
@@ -3004,7 +3184,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 	\caption
+l.188 	\caption
                {HCL 10 und 1 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3031,7 +3211,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 \end{figure}
+l.192 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3044,7 +3224,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \begin{figure}
+l.194 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3054,7 +3234,7 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.188 	\includegraphics
+l.197 	\includegraphics
                        [width=\linewidth]{Bilder/001HCL.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3072,7 +3252,7 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.188 	\includegraphics[width=\linewidth]
+l.197 	\includegraphics[width=\linewidth]
                                          {Bilder/001HCL.pdf}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3081,7 +3261,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.188 	\includegraphics[width=\linewidth]
+l.197 	\includegraphics[width=\linewidth]
                                          {Bilder/001HCL.pdf}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3115,7 +3295,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 	\caption
+l.198 	\caption
                {berechnetes Rotationsschwingungsspektrum bei 10~K}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3166,7 +3346,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no K in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 185--191
+Overfull \hbox (20.0pt too wide) in paragraph at lines 194--200
  [] 
  []
 
@@ -3177,7 +3357,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192 	\caption
+l.201 	\caption
                {HCL 10 und 1 Kelvin}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3204,14 +3384,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 \end{figure}
+l.205 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.199 \section
+l.208 \section
               {Rohdaten}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3228,7 +3408,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 199--200
+Overfull \hbox (20.0pt too wide) in paragraph at lines 208--209
 [] 
  []
 
@@ -3246,5 +3426,5 @@ Here is how much of TeX's memory you used:
  3671 multiletter control sequences out of 15000+200000
  3948 words of font info for 15 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 20i,4n,18p,210b,98s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 20i,5n,18p,271b,98s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

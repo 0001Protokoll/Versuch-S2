@@ -2,16 +2,17 @@
 
 \documentclass[a4paper, 12pt]{scrartcl}
 %usepackage[german]{babel}
-
+\usepackage{microtype}
 %\usepackage{amsmath}
 %usepackage{color}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{wrapfig}
 \usepackage{lipsum}% Dummy-Text
-
+\usepackage{multicol}
+\usepackage{alltt}
 %%%%%%%%%%%%bis hierhin alle nötigen userpackage
-
+\usepackage{tabularx}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -44,4 +45,10 @@
 \usepackage[nomessages]{fp}
 \usepackage{siunitx}
 \sisetup{exponent-product = \cdot, output-product = \cdot}
-			
+\usepackage{hyperref}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
+\usepackage{booktabs}
+\renewcommand*{\doublerulesep}{1ex}

@@ -17,7 +17,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{graphicx}
+
 %\usepackage{wrapfig}
 \usepackage[ngerman]{babel}
 \usepackage[left=25mm,top=25mm,right=25mm,bottom=25mm]{geometry}
@@ -29,7 +29,7 @@
 \usepackage{subcaption}
 \usepackage{float}
 \usepackage{url}
-\usepackage{fancyhdr}
+%\usepackage{fancyhdr}
 \usepackage{array}
 \usepackage{geometry}
 %\usepackage[nottoc,numbib]{tocbibind}
@@ -46,9 +46,16 @@
 \usepackage{siunitx}
 \sisetup{exponent-product = \cdot, output-product = \cdot}
 \usepackage{hyperref}
-
+\usepackage{longtable}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
 \usepackage{booktabs}
 \renewcommand*{\doublerulesep}{1ex}
+\usepackage{graphicx}
+
+
+\usepackage[backend=bibtex, style=chem-angew, backref=none, backrefstyle=all+]{biblatex}
+\bibliography{Literatur.bib}
+\defbibheading{head}{\section{Literatur}\label{sec:Lit}} 
+\let\cite=\supercite

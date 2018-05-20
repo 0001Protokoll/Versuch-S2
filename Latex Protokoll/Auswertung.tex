@@ -54,7 +54,7 @@ Mittels den erhaltenen Koeffizienten war es nun möglich die theorethische Disso
 \begin{tabular}{L{0.1\linewidth}L{0.1\linewidth}L{0.2\linewidth}L{0.2\linewidth}L{0.25\linewidth}}
 
  
-  Molekül  &  &  Wert &   Absoluter Fehler & Literatur \\
+  Molekül  &  &  Wert &   Absoluter Fehler & Literatur \cite{Lit} \\
   \addlinespace[1ex]
 \hline
 \addlinespace[1ex]
@@ -70,7 +70,7 @@ Mittels den erhaltenen Koeffizienten war es nun möglich die theorethische Disso
   HCl  & $\tilde{\nu}_e x_e$& \SI[mode=math]{60.0}{cm^{-1}}&\SI[mode=math]{0.5}{cm^{-1}}&\SI[mode=math]{52.8186}{cm^{-1}} \\
   HCl  & $r_e$&\SI[mode=math]{13.3333e-9}{cm} & \SI[mode=math]{0.0008e-9}{cm}&\SI[mode=math]{12.7455e-8}{cm}\\
   HCl  & $D_e$&\SI[mode=math]{}{}&\SI[mode=math]{}{}\\
-    HCl&$B$&	\SI[mode=math]{13.00}{cm^{-1}}&\SI[mode=math]{0.07}{cm^{-1}}&\SI[mode=math]{10.59341}{cm^{-1}}\\
+    HCl&$B$&	\SI[mode=math]{13.00}{cm^{-1}}&\SI[mode=math]{7.5}{cm^{-1}}&\SI[mode=math]{10.59341}{cm^{-1}}\\
 \addlinespace[1ex]
 \hline   
    
@@ -128,21 +128,20 @@ sowie deren absoluten Fehler nach Gleichung
 \subsection{Berechnung der Rotationskonstante B}
 \subsubsection*{Allgemeines Vorgehen}
 Die Rotationskonstante $B$, sowie der Fehler $\Delta B$ berechnen sich gemäß der Gleichungen \ref{eq:B} und \ref{eq:DeltaB}.
-\begin{align}
-B 	
-   			&= \frac{\hbar}{4 \cdot \pi \cdot c \cdot \mu  \cdot r_e^{2}}
-   			\notag\\\label{eq:B}
-   			&= konst.\cdot\frac{1}{\mu  \cdot r_e^{2}}
-   			\\\label{eq:DeltaB}	
+\begin{equation}
+B 	   			= \frac{\hbar}{4 \cdot \pi \cdot c \cdot \mu  \cdot r_e^{2}}  			
+   			= konst.\cdot\frac{1}{\mu  \cdot r_e^{2}}\label{eq:B}
+\end{equation}
+\begin{align}   			
 \Delta B	
-   			&=  \left|\frac{\delta B}{\delta r_e}\right|\cdot\Delta r_e =konst. \cdot\left|\frac{-2}{\mu \cdot r_e^{3}  }\right|\cdot \Delta r_e  	
-   			\end{align}
+   			&=  \left|\frac{\delta B}{\delta r_e}\right|\cdot\Delta r_e =konst. \cdot\left|\frac{-2}{\mu \cdot r_e^{3}  }\right|\cdot \Delta r_e  	\label{eq:DeltaB}	
+\end{align}
 Dabei werden zur Vereinfachung die Naturkonstante in einer Konstante $konst.$ in Gleichung \ref{eq:konst} zusammengefasst.
 
 
 \begin{align}
 \label{eq:konst}
-konst.&= 			 \frac{\SI[mode=math]{1.054571800e-34}{kg.m.s^{-1}}}{4\cdot 3.14159265359 \cdot \SI[mode=math]{299792458}{m.s^{-1}}}=\SI[mode=math]{2.799274682e-44}{kg.m}  				
+konst.&= 			 \frac{\SI[mode=math]{1.054571800e-34}{kg.m^2.s^{-1}}}{4\cdot 3.14159265359 \cdot \SI[mode=math]{299792458}{m.s^{-1}}}=\SI[mode=math]{2.799274682e-44}{kg.m}  				
 \end{align}
 
 
@@ -151,7 +150,7 @@ konst.&= 			 \frac{\SI[mode=math]{1.054571800e-34}{kg.m.s^{-1}}}{4\cdot 3.141592
 
 
 \subsubsection*{Berechnung für HCl}
-Für HCl ergibt sich somit, unter Verwendung der durch den Fit ausgegeben Gleichgewichtsabstand $r_e$ und dem dazugehörigen absoluten Fehler $\Delta r_e$
+Für HCl ergibt sich somit, unter Verwendung des durch den Fit ausgegeben Gleichgewichtsabstandes $r_e$ und dem dazugehörigen absoluten Fehler $\Delta r_e$
 \begin{align}
 \label{eq:re_HCL}
 r_e &= 1.3333 \cdot 10^{-8} ~\si{cm}=\SI[mode=math]{1.3333e-10}{m}
@@ -185,7 +184,7 @@ B &=\frac{\SI[mode=math]{2.799274682e-44}{kg.m}}{\SI[mode=math]{1.614412705e-27}
 
 
 \subsubsection*{Berechnung für CO}
-Für CO ergibt sich somit, unter Verwendung der durch den Fit ausgegeben Gleichgewichtsabstand $r_e$ und dem dazugehörigen absoluten Fehler $\Delta r_e$
+Für CO ergibt sich somit, unter Verwendung des durch den Fit ausgegeben Gleichgewichtsabstandes $r_e$ und dem dazugehörigen absoluten Fehler $\Delta r_e$
 \begin{align}
 \label{eq:r_CO}
 r_e &= 1.17 \cdot 10^{-8} ~\si{cm}=\SI[mode=math]{1.17e-10}{m}
@@ -235,108 +234,117 @@ B &=\frac{\SI[mode=math]{2.799274682e-44}{kg.m}}{\SI[mode=math]{1.13655165e-26}{
 
 
 \subsection{Roationsschwingungsspektren bei verschiedenen Temperaturen}
-\subsection*{CO}
 
-Die erhaltene Rotationskonstante $B$ sowie $\tilde{\nu}_e$ und $\tilde{\nu}_e x_e$ wurden verwendet um das theoretische Aussehen der Rotationsschwingungsspektren von HCl und CO bei \SI[mode=math]{1000}{K}, \SI[mode=math]{100}{K}, \SI[mode=math]{10}{K}, \SI[mode=math]{1}{K} und \SI[mode=math]{0.01}{K} vorherzusagen.
 
+Die erhaltene Rotationskonstante $B$ sowie die harmonische Konstante $\tilde{\nu}_e$ und die Anharmonizitätskonstante $\tilde{\nu}_e x_e$ wurden verwendet um das theoretische Aussehen der Rotationsschwingungsspektren von CO in Abbildung \ref{Rot:1000CO} bis Abbildung \ref{Rot:001CO} und für HCl in Abbildung \ref{Rot:1000HCl} bis Abbildung \ref{Rot:001HCl} bei \SI[mode=math]{1000}{K}, \SI[mode=math]{100}{K}, \SI[mode=math]{10}{K}, \SI[mode=math]{1}{K} und \SI[mode=math]{0.01}{K} vorherzusagen.
+
+Sowohl bei CO als auch HCl kann in den Abbildungen \ref{Rot:1000CO} und \ref{Rot:1000HCl} beobachtet werden, dass bei einer Temperatur von \SI[mode=math]{1000}{K} auch eine große Zahl von Signalen gefunden werden können. Dies kann auf den Zusammenhang der Intensitäten der verschiedenen Rotationsniveaus aus der Boltzmann-Verteilung in Gleichung \ref{muss in die Grundlagen noch rein} zurückgeführt werden. Mit fallender Temperatur verdünnen sich daher die Spektren in Abbildung \ref{Rot:100CO} und \ref{Rot:10CO} für CO bzw. \ref{Rot:100HCl} und \ref{Rot:10HCl} für HCl bei $100$ und \SI[mode=math]{10}{K}, bis schließlich bei einer Temperaturen nahe \SI[mode=math]{0}{K} in Abbildung \ref{Rot:001CO} bei CO bzw. \ref{Rot:001HCl} bei HCl nur noch ein einzelnes Signal beobachtet werden kann. Dieses Signal zeigt den Schwingungsübergang gemäß der Gleichung \ref{}  mit einem Rotationsübergang von $J=0$ hin zu $J'=1$, also das erste zu beobachtende Signal im Q-Zweig. Obwohl die Auswahlregel für Rotationsübergänge (\(\Delta J = \pm 1\)) auf zwei mögliche Signale hindeutet, ist im Falle von $J=0$ ein Übergang in den R-Zweig nicht zu beobachten, da dies bedeuten würde, dass ein Übergang hin zu $J'=-1$ stattfinden müsste.
+
+\subsection*{Theoretische Spektren für CO}
 \begin{figure}[H]
 \centering	
 	\begin{minipage}{0.8\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/1000CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 10~K}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 1000~K}
+	\label{Rot:1000CO}
 	\end{minipage}
 
 	
 	
 	
-	\label{Rot:1000CO}
+	
 \end{figure}
 
 \begin{figure}[H]
 	
 	\begin{minipage}{0.5\textwidth}
 	\includegraphics[width=\textwidth]{Bilder/100CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 1000 Kelvin}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 100 Kelvin}
+	\label{Rot:100CO}
 	\end{minipage}
 \begin{minipage}{0.5\textwidth}
 	\includegraphics[width=\textwidth]{Bilder/10CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 100 Kelvin}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 10 Kelvin}
+	\label{Rot:10CO}
 	\end{minipage}	
 	
 		
-	\label{Rot:10CO}
+	
 \end{figure}
 
 \begin{figure}[H]
 \centering	
 	\begin{minipage}{0.47\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/1CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 10~K}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 1~K}
 	\end{minipage}
 \begin{minipage}{0.47\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/001CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 1~K}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 0.01~K}
+	\label{Rot:001CO}
 	\end{minipage}
 	
 	
 	
 	
-	\label{Rot:001CO}
+	
 \end{figure}
 
 
 
 
 
-\subsection*{HCl}
+\subsection*{Theoretische Spektren für HCl}
+
+\begin{figure}[H]
+\centering	
+	\begin{minipage}{0.8\linewidth}
+	\includegraphics[width=\linewidth]{Bilder/1000HCl.pdf}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 1000~K}
+		\label{Rot:1000HCl}
+	\end{minipage}
+
+	
+	
+	
+
+\end{figure}
 
 \begin{figure}[H]
 	
 	\begin{minipage}{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder/1000HCL.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 1000 Kelvin}
+	\includegraphics[width=\textwidth]{Bilder/100HCl.pdf}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 100 Kelvin}
+	\label{Rot:100HCl}
 	\end{minipage}
 \begin{minipage}{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder/100HCL.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 100 Kelvin}
+	\includegraphics[width=\textwidth]{Bilder/10HCl.pdf}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 10 Kelvin}
+	\label{Rot:10HCl}
 	\end{minipage}	
 	
-	\caption{HCL 1000 und 100 Kelvin}
+		
 	
-	
-%	\label{1}
 \end{figure}
 
 \begin{figure}[H]
 \centering	
 	\begin{minipage}{0.47\linewidth}
-	\includegraphics[width=\linewidth]{Bilder/10HCL.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 10~K}
-	\end{minipage}
-\begin{minipage}{0.47\linewidth}
-	\includegraphics[width=\linewidth]{Bilder/1HCL.pdf}
+	\includegraphics[width=\linewidth]{Bilder/1HCl.pdf}
 	\caption{berechnetes Rotationsschwingungsspektrum bei 1~K}
 	\end{minipage}
-	
-	\caption{HCL 10 und 1 Kelvin}
-	
-	
-	
-\end{figure}
-
-\begin{figure}[H]
-\centering	
-	\begin{minipage}{0.47\linewidth}
-	\includegraphics[width=\linewidth]{Bilder/001HCL.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 10~K}
+\begin{minipage}{0.47\linewidth}
+	\includegraphics[width=\linewidth]{Bilder/001HCl.pdf}
+	\caption{berechnetes Rotationsschwingungsspektrum bei 0.01~K}	
+	\label{Rot:001HCl}
 	\end{minipage}
-
-	\caption{HCL 10 und 1 Kelvin}
 	
 	
-%	\label{3}
+	
+	
 \end{figure}
 
-Bilden Sie daraus einen Satz Abbildungen und erklären Sie die Beobachtung! Wieviel Linien erhält man für T=0.01K? Zu welchem Zweig gehört sie? (-1 geht nicht daher +1)
-\section{Rohdaten}
 
+
+
+\printbibliography

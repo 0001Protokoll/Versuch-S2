@@ -1,0 +1,95 @@
+% Encoding: UTF-8
+
+@BOOK {atkins,
+    author    = "P. W. Atkins, J. d. Paula",
+    title     = "Physikalische Chemie",
+    publisher = "Wiley-VCH Verlag",
+    year      = "2006",
+    edition   = "fourth"
+}
+
+@ARTICLE {BLYP1,
+    author  = "P.A.M Dirac",
+    title   = "Quantum mechanics of many-electron systems",
+    journal = "Proc. Royal Soc. (London) A",
+    year    = "1929",
+    volume  = "123",
+    number  = "792",
+    pages   = "714-733"
+}
+
+@ARTICLE {BLYP2,
+    author  = "J. C. Slater.",
+    title   = "A simplification of the Hartree-Fock method",
+    journal = "Phys. Rev.",
+    year    = "1951",
+    volume  = "81",
+    number  = "3",
+    pages   = "385-390"
+}
+
+@ARTICLE {BLYP3,
+    author  = "A. D. Becke",
+    title   = "Density-functional exchange-energy approximation with correct asymptotic behaviour",
+    journal = "Phys. Rev. A",
+    year    = "1988",
+    volume  = "38",
+    number  = "6",
+    pages   = "3098-3100"
+}
+
+@ARTICLE {BLYP4,
+    author  = "C. Lee, W. Yang, R. G. Parr.",
+    title   = "Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density",
+    journal = "Phys. Rev. B",
+    year    = "1988",
+    volume  = "37",
+    number  = "2",
+    pages   = "785-789"
+}
+
+@ARTICLE {basis1,
+    author  = "J. S. Binkley, J. A. Pople, W. J. Hehre",
+    title   = "Self-Consistent Molecular Orbital Methods. 21. Small Split-Valence Basis Sets for First-Row Elements",
+    journal = "J. Am. Chem. Soc.",
+    year    = "1980",
+    volume  = "102",
+    pages   = "939-47"
+}
+
+@ARTICLE {basis2,
+    author  = "M. S. Gordon, J. S. Binkley, J. A. Pople, W. J. Pietro, W. J. Hehre",
+    title   = "Self-Consistent Molecular Orbital Methods. 22. Small Split-Valence Basis Sets for Second-Row Elements",
+    journal = "J. Am. Chem. Soc.",
+    year    = "1982",
+    volume  = "104",
+    pages   = "2797-803"
+}
+
+@book{cramer,
+  title={Essentials of Computational Chemistry: Theories and Models},
+  author={Cramer, C.J.},
+  isbn={9780470091838},
+  year={2005},
+  publisher={Wiley}
+}
+
+@MASTERSTHESIS {alex,
+    author = "Alexandra Dudzinski",
+    title  = "Electronic flux density in chiral molecules",
+    school = "Freie Universität",
+    year   = "2018",
+    type   = "Bachelorthesis",
+    month  = "apr"
+}
+
+
+@misc{Lit,
+    author = "{NIST Chemistry WebBook}",
+    title = "NIST WebBook",
+    month = "Mai",
+    year = "2018",
+    url = "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7647010&Units=SI&Mask=1000#Diatomic",}
+@Comment{jabref-meta: databaseType:bibtex;}
+
+]

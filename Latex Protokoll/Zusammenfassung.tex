@@ -3,5 +3,41 @@
  
 %\begin{document}
 \section{Zusammenfassung}
-Durch die Anpassung der in Versuch S1 erhaltenen Werte im Minimum mit der Morsefunktion wurden für CO und HCl die harmonische Konstante, die Anharmonizitätskonstante, der Gleichgewichtsabstand, die Dissoziationsenergie und die Rotationskonstante wie in Tabelle 4.1 dargestellt berechnet. Die erhaltenen Werte stimmen in guter Näherung mit den Literaturwerten überein. Sämtliche Werte von CO liegen wie erwartet unter den jeweiligen Werten von HCl. Dies spiegelt sich auch in den simulierten Spektren wider. So liegt die Lücke von CO bei 1000 Kelvin bei rund 1940 inversen Centimetern, wohingegen sie bei HCl bei über 2500 liegt. Je höher die Temperatur in der Simulation gewählt wurde, desto mehr Linien sind vorhanden, was darauf beruht, dass mehr Übergänge möglich sind.
+Durch Anpassung der in mittels Gaussian erhaltenen Werte an eine Morsefunktion nahe dem Gleichgewichtsabstand wurden für CO und HCl die harmonische Konstante, die Anharmonizitätskonstante, der Gleichgewichtsabstand, die Dissoziationsenergie und die Rotationskonstante bestimmt. Diese wurden in Tabelle \ref{zusamtab} zusammengetragen und den Literaturwerten gegenübergestellt.
+
+
+
+\begin{table}[H]
+ 
+ \caption{Übersicht der für CO und HCl erhaltene Koeffizienten aus dem Fit der Morsefunktion sowie die berechneten Rotationskonstanten und Dissoziationsenergien in Gegenüberstellung zur Literatur.}
+ \renewcommand{\arraystretch}{1.5}
+\begin{tabular}{L{0.1\linewidth}L{0.1\linewidth}L{0.15\linewidth}L{0.4\linewidth}L{0.1\linewidth}}
+  Molekül&  & & Wert~$\pm~\Delta$Wert & Literatur\cite{Lit} \\
+  \addlinespace[1ex]
+\hline
+  \addlinespace[1ex]
+CO & $\tilde{\nu}_e$ &$[\si{cm^{-1}}]$& $(1968.5 \pm 0.35)$ & \SI[mode=math]{2169}{}\\
+CO & $\tilde{\nu}_e x_e$& $[\si{cm^{-1}}]$& $(13.91 \pm 0.05)$ & \SI[mode=math]{13.288}{}\\
+CO & $r_e$&$[10^{-9}\cdot\si{cm}]$&( \SI[mode=math]{11.7000}{}~$ \pm$~\SI[mode=math]{0.0003}{}) & \SI[mode=math]{11.28323}{}\\
+CO & $D_e$& $\left[\SI[per-mode=fraction]{}{\kJ\per\mol}\right]$& $(833 \pm 7)$ & \SI[mode=math]{729}{}\\
+CO & $B$& $[\si{cm^{-1}}]$& $(2.1050\pm 0.\SI[mode=math]{1e-4})$ & \SI[mode=math]{1.93128}{}\\
+  \addlinespace[1ex]
+\hline
+  \addlinespace[1ex]
+  HCl & $\tilde{\nu}_e$ &$[\si{cm^{-1}}]$& $(2654 \pm 1)$ & \SI[mode=math]{2990.9}{}\\
+HCl & $\tilde{\nu}_e x_e$& $[\si{cm^{-1}}]$& $(60.0 \pm 0.5)$ & \SI[mode=math]{52.8186}{}\\
+HCl & $r_e$&$[10^{-9}\cdot\si{cm}]$&( \SI[mode=math]{13.3333}{}~$ \pm$~\SI[mode=math]{0.0008}{}) & \SI[mode=math]{12.7455}{}\\
+HCl & $D_e$& $\left[\SI[per-mode=fraction]{}{\kJ\per\mol}\right]$& $(351 \pm 5)$ & \SI[mode=math]{429}{}\\
+HCl & $B$& $[\si{cm^{-1}}]$& $(13.0047\pm \SI[mode=math]{7.5e-4})$ & \SI[mode=math]{10.59341}{}\\DCl & $B$& $[\si{cm^{-1}}]$& $(6.683\pm \SI[mode=math]{1e-3})$ & \SI[mode=math]{5.4487}{}\\
+  \addlinespace[1ex]
+\hline
+\end{tabular}
+\label{zusamtab}
+\end{table}
+
+
+Die erhaltenen Werte stimmen in guter Näherung mit der Literatur überein. Es sei jedoch erwähnt, dass die gefundenen Werte von CO wesentlich Näher an diese heranreichen als es bei HCl der Fall ist. Dies kann darin begründet werden, dass... . Ebenfalls ist zu erkennen, dass  die Werte von CO kleiner (im Falle der Dissoziationsenergie größer) als die jeweiligen Werte von HCl sind. Dies ist damit zu begründen, dass  ....
+ 
+Dieser Sachverhalt spiegelt sich auch in den simulierten Spektren wider. So liegt die Bandenlücke von CO bei ungefähr 1940 Wellenzahlen, wohingegen sie bei HCl bei über 2500 Wellenzahlen liegt. Daher ist es auch nicht verwunderlich, dass die Rotationskonstante für das schwerere Isotop DCl im Vergleich zu HCl kleiner ausfällt.
+
 %\end{document}

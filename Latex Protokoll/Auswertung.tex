@@ -18,7 +18,7 @@ Die aus dem Versuch S1 erhaltenen Daten wurden in Abbildung \ref{HCLplot} für H
 	\end{minipage}
 	
 	
-	\caption{mit IgorPro gemacht. HCL über morsefit}
+	\caption{Grafische Auftragung der mit der Born-Oppenheimer-Näherung erhaltenen Energien bei verschiedenen Kernabständen von HCl. Die Werte wurden mittels GAUSSIAN mit der Methode B3LYP und dem Basissatz 6-31G erhalten. Die Grafik wurde mit Igor Pro 6.37 erstellt. Die blaue Kurve und deren Parameter, wurden auf Grundlage der Morsefunktion ebenfalls mit Igor Pro ermittelt.}
 	
 
 	\label{HCLplot}
@@ -31,7 +31,7 @@ Die aus dem Versuch S1 erhaltenen Daten wurden in Abbildung \ref{HCLplot} für H
 	\end{minipage}
 	
 	
-	\caption{mit IgorPro gemacht. CO über morsefit}
+	\caption{Grafische Auftragung der mit der Born-Oppenheimer-Näherung erhaltenen Energien bei verschiedenen Kernabständen von CO. Die Werte wurden mittels GAUSSIAN mit der Methode B3LYP und dem Basissatz 6-31G erhalten. Die Grafik wurde mit Igor Pro 6.37 erstellt. Die blaue Kurve und deren Parameter, wurden auf Grundlage der Morsefunktion ebenfalls mit Igor Pro ermittelt.}
 	
 	
 	\label{COplot}
@@ -50,27 +50,27 @@ Mittels den erhaltenen Koeffizienten war es nun möglich die theorethische Disso
 
  
  
- \caption{Für CO und HCl erhaltene Koeffizienten aus dem Fit der Morsefunktion sowie die berechneten Rotationskonstanten und Dissoziationsenergien.}
-\begin{tabular}{L{0.1\linewidth}L{0.1\linewidth}L{0.2\linewidth}L{0.2\linewidth}L{0.25\linewidth}}
+ \caption{Übersicht der für CO und HCl erhaltene Koeffizienten aus dem Fit der Morsefunktion sowie die berechneten Rotationskonstanten und Dissoziationsenergien in Gegenüberstellung zur Literatur.}
+\begin{tabular}{L{0.1\linewidth}L{0.1\linewidth}L{0.15\linewidth}R{0.05\linewidth}L{0.2\linewidth}L{0.25\linewidth}}
 
  
-  Molekül  &  &  Wert &   Absoluter Fehler & Literatur \cite{Lit} \\
+  Molekül  &  &  Wert & &  Absoluter Fehler & Literatur \cite{Lit} \\
   \addlinespace[1ex]
 \hline
 \addlinespace[1ex]
-  CO  & $\tilde{\nu}_e$ &\SI[mode=math]{1968.5}{cm^{-1}} &\SI[mode=math]{0.35}{cm^{-1}} &\SI[mode=math]{2169}{cm^{-1}} \\
-  CO  & $\tilde{\nu}_e x_e$& \SI[mode=math]{13.91}{cm^{-1}}&\SI[mode=math]{0.05}{cm^{-1}}&\SI[mode=math]{13.28831}{cm^{-1}} \\
-  CO  & $r_e$&\SI[mode=math]{11.7000e-9}{cm} & \SI[mode=math]{0.0003e-9}{cm}&\SI[mode=math]{11.28323e-9}{cm}\\
-  CO  & $D_e$&\SI[mode=math]{}{}&\SI[mode=math]{}{}\\
-    CO&$B$&	\SI[mode=math]{2}{cm^{-1}}&\SI[mode=math]{1}{cm^{-1}}&\SI[mode=math]{1.93128087}{cm^{-1}}\\
+  CO  & $\tilde{\nu}_e$ &\SI[mode=math]{1968.5}{cm^{-1}} &$\pm$ &\SI[mode=math]{0.35}{cm^{-1}} &\SI[mode=math]{2169}{cm^{-1}} \\
+  CO  & $\tilde{\nu}_e x_e$& \SI[mode=math]{13.91}{cm^{-1}}&$\pm$ &\SI[mode=math]{0.05}{cm^{-1}}&\SI[mode=math]{13.28831}{cm^{-1}} \\
+  CO  & $r_e$&\SI[mode=math]{11.7000e-9}{cm} & $\pm$ &\SI[mode=math]{0.0003e-9}{cm}&\SI[mode=math]{11.28323e-9}{cm}\\
+  CO  & $D_e$&\SI[per-mode=fraction]{833}{\kJ\per\mol} &$\pm$ &\SI[per-mode=fraction]{7}{\kJ\per\mol}&\SI[per-mode=fraction]{729}{\kJ\per\mol} \\
+    CO&$B$&	\SI[mode=math]{2}{cm^{-1}}&$\pm$ &\SI[mode=math]{1}{cm^{-1}}&\SI[mode=math]{1.93128087}{cm^{-1}}\\
 \addlinespace[1ex]
 \hline
 \addlinespace[1ex]
-  HCl  & $\tilde{\nu}_e$ &\SI[mode=math]{2654}{cm^{-1}} &\SI[mode=math]{1}{cm^{-1}} &\SI[mode=math]{2990.946}{cm^{-1}} \\
-  HCl  & $\tilde{\nu}_e x_e$& \SI[mode=math]{60.0}{cm^{-1}}&\SI[mode=math]{0.5}{cm^{-1}}&\SI[mode=math]{52.8186}{cm^{-1}} \\
-  HCl  & $r_e$&\SI[mode=math]{13.3333e-9}{cm} & \SI[mode=math]{0.0008e-9}{cm}&\SI[mode=math]{12.7455e-8}{cm}\\
-  HCl  & $D_e$&\SI[mode=math]{}{}&\SI[mode=math]{}{}\\
-    HCl&$B$&	\SI[mode=math]{13.00}{cm^{-1}}&\SI[mode=math]{7.5}{cm^{-1}}&\SI[mode=math]{10.59341}{cm^{-1}}\\
+  HCl  & $\tilde{\nu}_e$ &\SI[mode=math]{2654}{cm^{-1}} &$\pm$ &\SI[mode=math]{1}{cm^{-1}} &\SI[mode=math]{2990.946}{cm^{-1}} \\
+  HCl  & $\tilde{\nu}_e x_e$& \SI[mode=math]{60.0}{cm^{-1}}&$\pm$ &\SI[mode=math]{0.5}{cm^{-1}}&\SI[mode=math]{52.8186}{cm^{-1}} \\
+  HCl  & $r_e$&\SI[mode=math]{13.3333e-9}{cm} & $\pm$ &\SI[mode=math]{0.0008e-9}{cm}&\SI[mode=math]{12.7455e-8}{cm}\\
+  HCl  & $D_e$&\SI[per-mode=fraction]{351}{\kJ\per\mol} &$\pm$ &\SI[per-mode=fraction]{5}{\kJ\per\mol}&\SI[per-mode=fraction]{429}{\kJ\per\mol} \\
+    HCl&$B$&	\SI[mode=math]{13.00}{cm^{-1}}& $\pm$ & \SI[mode=math]{7.5}{cm^{-1}}&\SI[mode=math]{10.59341}{cm^{-1}}\\
 \addlinespace[1ex]
 \hline   
    
@@ -92,7 +92,7 @@ Mittels den erhaltenen Koeffizienten war es nun möglich die theorethische Disso
 
 
 \subsection{Berechnung der Dissoziationsenergie}
-Die Dissoziationsenergie ermittelt sich gemäß Gleichung \ref{eq:de}
+Die Dissoziationsenergie ermittelt sich gemäß Gleichung \ref{eq:de}.
 \begin{equation} 
 	\label{eq:de}
 		D_e \approx \frac{\tilde{\nu}_e^2}{4 \tilde{\nu}_e x_e}
@@ -100,17 +100,35 @@ Die Dissoziationsenergie ermittelt sich gemäß Gleichung \ref{eq:de}
 
 %%%%%%%%%%%%%%%%%%%%%%
 Der absolute Fehler berechnet sich nach Gleichung \ref{eq:Deltade}.
-\begin{equation} 
-	\label{eq:Deltade}
-		\Delta D_e =\left|\frac{\delta D_e}{\delta \tilde{\nu}_e}\right|\cdot \Delta \tilde{\nu}_e + \left|\frac{\delta D_e}{\delta \tilde{\nu}_e x_e}\right|\cdot \Delta \tilde{\nu}_e x_e 
-\end{equation}
-Somit gilt für die Dissoziationsenergie für CO nach Gleichung \ref{eq:Rede}.
+\begin{align} 	
+\Delta D_e &=\left|\frac{\delta D_e}{\delta \tilde{\nu}_e}\right|\cdot \Delta \tilde{\nu}_e + \left|\frac{\delta D_e}{\delta \tilde{\nu}_e x_e}\right|\cdot \Delta \tilde{\nu}_e x_e 
+		=\frac{2 \cdot \tilde{\nu}_e}{4 \tilde{\nu}_e x_e}\cdot \Delta \tilde{\nu}_e + \frac{2 \cdot \tilde{\nu}_e^2}{4 (\tilde{\nu}_e x_e)^2}\cdot \Delta \tilde{\nu}_e x_e \notag\\&=\frac{1}{2}\left(\frac{\tilde{\nu}_e}{\tilde{\nu}_e x_e}\cdot \Delta \tilde{\nu}_e + \left(\frac{ \tilde{\nu}_e}{ \tilde{\nu}_e x_e}\right)^2\cdot \Delta \tilde{\nu}_e x_e\right)
+\label{eq:Deltade}
+\end{align}
+Somit gilt für die Dissoziationsenergie für HCl nach Gleichung \ref{eq:Rede}. \newline Die Umrechnung in kJ/mol wurde über den Zusammenhang $E= h \cdot \tilde{\nu} \cdot c \cdot N_A$ berechnet.
 \begin{equation} 
 	\label{eq:Rede}
-		D_e \approx \frac{2654.5^2}{4\cdot60.006} ~\si
-{cm^{-1}}  \approx  \SI[mode=math]{29356.94}{cm^{-1}} 
+		D_e \approx \frac{2654.5^2}{4\cdot60.006} ~\si[per-mode=fraction]
+{\per\cm}  = \SI[per-mode=fraction]{29356.94e2}{\per\m} =\SI[per-mode=fraction]{351.1869635}{\kJ\per\mol} =\SI[per-mode=fraction]{351}{\kJ\per\mol} 
 \end{equation}
-sowie deren absoluten Fehler nach Gleichung 
+Der absoluten Fehler berechnet sich nach Gleichung \ref{eq:DeltaRede}
+\begin{align}
+\Delta D_e &= \frac{1}{2} \left( \frac{2654.5}{60.006} \cdot 0.94 + \left(\frac{2654.5}{60.006}\right)^2 \cdot 0.379 \right) \si{cm^{-1}}\notag\\
+&=\SI[mode=math]{391.630433e2}{m^{-1}}=\SI[per-mode=fraction]{4.684940334}{\kJ\per\mol}=\SI[per-mode=fraction]{5}{\kJ\per\mol}
+\label{eq:DeltaRede}
+\end{align}
+Analog berechnet sich die Dissoziationsenergie von CO in Gleichung \ref{eq:RedeHCL}
+
+\begin{equation}
+\label{eq:RedeHCL}
+	D_e \approx \frac{1968.5^2}{4\cdot13.913} ~\si[per-mode=fraction]
+{\per\cm}  = \SI[per-mode=fraction]{69628.98458e2}{\per\m} =\SI[per-mode=fraction]{832.9476223}{\kJ\per\mol}=\SI[per-mode=fraction]{833}{\kJ\per\mol}
+\end{equation}
+,mit einem absoluten Fehler von
+\begin{align}
+\Delta D_e &= \frac{1}{2} \left( \frac{1968.5}{13.913} \cdot 0.341 + \left(\frac{1968.5}{13.913}\right)^2 \cdot 0.0529 \right) \si{cm^{-1}}\notag\\
+&=\SI[mode=math]{553.609992e2}{m^{-1}}=\SI[per-mode=fraction]{6.622646148}{\kJ\per\mol}=\SI[per-mode=fraction]{7}{\kJ\per\mol}
+\end{align}
 
 %%%%%%%%%%%%%%
 %\begin{itemize}
@@ -236,16 +254,16 @@ B &=\frac{\SI[mode=math]{2.799274682e-44}{kg.m}}{\SI[mode=math]{1.13655165e-26}{
 \subsection{Roationsschwingungsspektren bei verschiedenen Temperaturen}
 
 
-Die erhaltene Rotationskonstante $B$ sowie die harmonische Konstante $\tilde{\nu}_e$ und die Anharmonizitätskonstante $\tilde{\nu}_e x_e$ wurden verwendet um das theoretische Aussehen der Rotationsschwingungsspektren von CO in Abbildung \ref{Rot:1000CO} bis Abbildung \ref{Rot:001CO} und für HCl in Abbildung \ref{Rot:1000HCl} bis Abbildung \ref{Rot:001HCl} bei \SI[mode=math]{1000}{K}, \SI[mode=math]{100}{K}, \SI[mode=math]{10}{K}, \SI[mode=math]{1}{K} und \SI[mode=math]{0.01}{K} vorherzusagen.
+Die erhaltene Rotationskonstante $B$, sowie die harmonische Konstante $\tilde{\nu}_e$ und die Anharmonizitätskonstante $\tilde{\nu}_e x_e$ wurden verwendet um das theoretische Aussehen der Rotationsschwingungsspektren von CO in Abbildung \ref{Rot:1000CO} bis Abbildung \ref{Rot:001CO} und für HCl in Abbildung \ref{Rot:1000HCl} bis Abbildung \ref{Rot:001HCl} bei \SI[mode=math]{1000}{K}, \SI[mode=math]{100}{K}, \SI[mode=math]{10}{K}, \SI[mode=math]{1}{K} und \SI[mode=math]{0.01}{K} vorherzusagen.
 
-Sowohl bei CO als auch HCl kann in den Abbildungen \ref{Rot:1000CO} und \ref{Rot:1000HCl} beobachtet werden, dass bei einer Temperatur von \SI[mode=math]{1000}{K} auch eine große Zahl von Signalen gefunden werden können. Dies kann auf den Zusammenhang der Intensitäten der verschiedenen Rotationsniveaus aus der Boltzmann-Verteilung in Gleichung \ref{muss in die Grundlagen noch rein} zurückgeführt werden. Mit fallender Temperatur verdünnen sich daher die Spektren in Abbildung \ref{Rot:100CO} und \ref{Rot:10CO} für CO bzw. \ref{Rot:100HCl} und \ref{Rot:10HCl} für HCl bei $100$ und \SI[mode=math]{10}{K}, bis schließlich bei einer Temperaturen nahe \SI[mode=math]{0}{K} in Abbildung \ref{Rot:001CO} bei CO bzw. \ref{Rot:001HCl} bei HCl nur noch ein einzelnes Signal beobachtet werden kann. Dieses Signal zeigt den Schwingungsübergang gemäß der Gleichung \ref{}  mit einem Rotationsübergang von $J=0$ hin zu $J'=1$, also das erste zu beobachtende Signal im Q-Zweig. Obwohl die Auswahlregel für Rotationsübergänge (\(\Delta J = \pm 1\)) auf zwei mögliche Signale hindeutet, ist im Falle von $J=0$ ein Übergang in den R-Zweig nicht zu beobachten, da dies bedeuten würde, dass ein Übergang hin zu $J'=-1$ stattfinden müsste.
+Sowohl bei CO als auch HCl kann in den Abbildungen \ref{Rot:1000CO} und \ref{Rot:1000HCl} beobachtet werden, dass bei einer Temperatur von \SI[mode=math]{1000}{K} auch eine große Zahl von Signalen gefunden werden können. Dies kann auf den Zusammenhang der Intensitäten der verschiedenen Rotationsniveaus aus der Boltzmann-Verteilung in Gleichung \ref{muss in die Grundlagen noch rein} zurückgeführt werden. Mit fallender Temperatur verdünnen sich daher die Spektren in Abbildung \ref{Rot:100CO} für CO bzw. \ref{Rot:100HCl} für HCl bei $100$ und \SI[mode=math]{10}{K}, bis schließlich bei einer Temperaturen nahe \SI[mode=math]{0}{K} in Abbildung \ref{Rot:001CO} bei CO bzw. \ref{Rot:001HCl} bei HCl nur noch ein einzelnes Signal beobachtet werden kann. Dieses Signal zeigt den Schwingungsübergang gemäß der Gleichung \ref{}  mit einem Rotationsübergang von $J=0$ hin zu $J'=1$, also das erste zu beobachtende Signal im R-Zweig. Obwohl die Auswahlregel für Rotationsübergänge (\(\Delta J = \pm 1\)) auf zwei mögliche Signale hindeutet, ist im Falle von $J=0$ ein Übergang in den P-Zweig nicht zu beobachten, da dies bedeuten würde, dass einer  hin zu $J'=-1$ stattfinden müsste.
 
 \subsection*{Theoretische Spektren für CO}
 \begin{figure}[H]
 \centering	
 	\begin{minipage}{0.8\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/1000CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 1000~K}
+	\caption{Berechnetes Rotationsschwingungsspektrum für CO bei 1000~K unter Annahme eines starren Rotators. Die Grafik wurden mittels eines durch die Praktikumsleitung zur Verfügung gestellten Algorithmus in Igor Pro 6.37 erstellt.}
 	\label{Rot:1000CO}
 	\end{minipage}
 
@@ -259,15 +277,14 @@ Sowohl bei CO als auch HCl kann in den Abbildungen \ref{Rot:1000CO} und \ref{Rot
 	
 	\begin{minipage}{0.5\textwidth}
 	\includegraphics[width=\textwidth]{Bilder/100CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 100 Kelvin}
-	\label{Rot:100CO}
+	
 	\end{minipage}
 \begin{minipage}{0.5\textwidth}
 	\includegraphics[width=\textwidth]{Bilder/10CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 10 Kelvin}
-	\label{Rot:10CO}
-	\end{minipage}	
 	
+	\end{minipage}	
+	\caption{Berechnetes Rotationsschwingungsspektrum für CO bei 100~K (links) und bei 10~K (rechts) unter Annahme eines starren Rotators. Die Grafiken wurden mittels eines durch die Praktikumsleitung zur Verfügung gestellten Algorithmus in Igor Pro 6.37 erstellt.}
+	\label{Rot:100CO}
 		
 	
 \end{figure}
@@ -276,14 +293,14 @@ Sowohl bei CO als auch HCl kann in den Abbildungen \ref{Rot:1000CO} und \ref{Rot
 \centering	
 	\begin{minipage}{0.47\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/1CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 1~K}
+	
 	\end{minipage}
 \begin{minipage}{0.47\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/001CO.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 0.01~K}
-	\label{Rot:001CO}
-	\end{minipage}
 	
+	\end{minipage}
+\caption{Berechnetes Rotationsschwingungsspektrum für CO bei 1~K (links) und bei 0.01~K (rechts) unter Annahme eines starren Rotators. Die Grafiken wurden mittels eines durch die Praktikumsleitung zur Verfügung gestellten Algorithmus in Igor Pro 6.37 erstellt.}
+	\label{Rot:001CO}	
 	
 	
 	
@@ -295,34 +312,32 @@ Sowohl bei CO als auch HCl kann in den Abbildungen \ref{Rot:1000CO} und \ref{Rot
 
 
 \subsection*{Theoretische Spektren für HCl}
-
 \begin{figure}[H]
 \centering	
 	\begin{minipage}{0.8\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/1000HCl.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 1000~K}
-		\label{Rot:1000HCl}
+	\caption{Berechnetes Rotationsschwingungsspektrum für HCl bei 1000~K unter Annahme eines starren Rotators. Die Grafik wurden mittels eines durch die Praktikumsleitung zur Verfügung gestellten Algorithmus in Igor Pro 6.37 erstellt.}
+	\label{Rot:1000HCl}
 	\end{minipage}
 
 	
 	
 	
-
+	
 \end{figure}
 
 \begin{figure}[H]
 	
 	\begin{minipage}{0.5\textwidth}
 	\includegraphics[width=\textwidth]{Bilder/100HCl.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 100 Kelvin}
-	\label{Rot:100HCl}
+	
 	\end{minipage}
 \begin{minipage}{0.5\textwidth}
 	\includegraphics[width=\textwidth]{Bilder/10HCl.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 10 Kelvin}
-	\label{Rot:10HCl}
-	\end{minipage}	
 	
+	\end{minipage}	
+	\caption{Berechnetes Rotationsschwingungsspektrum für HCl bei 100~K (links) und bei 10~K (rechts) unter Annahme eines starren Rotators. Die Grafiken wurden mittels eines durch die Praktikumsleitung zur Verfügung gestellten Algorithmus in Igor Pro 6.37 erstellt.}
+	\label{Rot:100HCl}
 		
 	
 \end{figure}
@@ -331,13 +346,14 @@ Sowohl bei CO als auch HCl kann in den Abbildungen \ref{Rot:1000CO} und \ref{Rot
 \centering	
 	\begin{minipage}{0.47\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/1HCl.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 1~K}
+	
 	\end{minipage}
 \begin{minipage}{0.47\linewidth}
 	\includegraphics[width=\linewidth]{Bilder/001HCl.pdf}
-	\caption{berechnetes Rotationsschwingungsspektrum bei 0.01~K}	
-	\label{Rot:001HCl}
+	
 	\end{minipage}
+\caption{Berechnetes Rotationsschwingungsspektrum für HCl bei 1~K (links) und bei 0.01~K (rechts) unter Annahme eines starren Rotators. Die Grafiken wurden mittels eines durch die Praktikumsleitung zur Verfügung gestellten Algorithmus in Igor Pro 6.37 erstellt.}
+	\label{Rot:001HCl}	
 	
 	
 	
@@ -346,5 +362,3 @@ Sowohl bei CO als auch HCl kann in den Abbildungen \ref{Rot:1000CO} und \ref{Rot
 
 
 
-
-\printbibliography
